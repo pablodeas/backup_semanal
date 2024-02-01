@@ -1,6 +1,6 @@
-# Project Title: Automated Backup System
+# Automated Backup System
 
-This project consists of two main files: `config.sh` and `backup.zsh`. These scripts are designed to automate the process of backing up and compressing data from a specified directory to another directory.
+This project consists of two main files: `config.sh` and `do_backup.zsh`. These scripts are designed to automate the process of backing up and compressing data from a specified directory to another directory.
 
 ## config.sh
 This is a configuration file that sets up environment variables for the backup process. It includes:
@@ -20,7 +20,7 @@ This script performs the backup and compression operations. It includes:
 The script checks the success of the backup and compression processes, printing relevant messages. If any process fails, an error message is printed.
 
 ## How to Use
-First, ensure that the `config.sh` and `backup.zsh` files have execute permissions. You can add execute permissions using the command `chmod +x filename`.
+First, ensure that the `config.sh` and `do_backup.zsh` files have execute permissions. You can add execute permissions using the command `chmod +x filename`.
 
 Then, run the `backup.zsh` script. If successful, a backup of the `main_dir` will be created in the `bkp_dir`, and the backup will be compressed into a `.tar.gz` file.
 
